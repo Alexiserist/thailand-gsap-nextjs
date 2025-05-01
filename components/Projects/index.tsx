@@ -5,7 +5,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import Word from "./Paragraph";
 
-export default function index() {
+export default function Index() {
   const [projectSelected, setProject] = useState(0);
   const imageProject = useRef(null);
   const lastProjectEl = useRef(null);

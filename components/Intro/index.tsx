@@ -54,7 +54,7 @@ export default function Index() {
 }
 
 
-function AnimatedText({ children }: any) {
+function AnimatedText({ children }: {children: string}) {
   const text = useRef<HTMLParagraphElement>(null);
 
   useEffect(() => {
