@@ -34,7 +34,7 @@ export default function Index() {
   return (
     <div className={styles.homeTitle}>
       <div className={styles.backgroundImage}>
-        <Image ref={background} src={"/images/background.jpg"} alt="backgroundImage" fill={true} priority={true}></Image>
+        <Image ref={background} src={"/images/background.jpg"} alt="backgroundImage" sizes="100vw" fill={true} priority={true}></Image>
       </div>
       <div className={styles.description}>
         {
@@ -45,7 +45,7 @@ export default function Index() {
       </div>
       <div className={styles.homeIntro}>
         <div ref={backgroundIntro} className={styles.backgroundIntro}>
-          <Image src={"/images/background_intro.jpg"} alt="background_intro" fill={true} priority={true}></Image>
+          <Image src={"/images/background_intro.jpg"} alt="background_intro" sizes="1000px" fill={true} priority={true}></Image>
         </div>
         <h1  data-scroll data-scroll-speed="0.7">Thailand dan smile</h1>
       </div>

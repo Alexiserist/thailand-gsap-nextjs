@@ -61,7 +61,7 @@ export default function index() {
       <div className={styles.projectDescription}>
         <div className={styles.column}>
           <div className={styles.imageContainer}>
-            <Image ref={imageProject} src={`/images/${place[projectSelected].src}`} alt="project_1" fill={true} priority={true}></Image>
+            <Image ref={imageProject} src={`/images/${place[projectSelected].src}`} alt="project_1" fill={true} sizes="1000px" priority={true}></Image>
           </div>
         </div>
         <div className={styles.column}>
